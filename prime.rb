@@ -1,6 +1,6 @@
 def prime? (x)
-  for d in 2..(n - 1)
-   if (n % d) == 0
+  for d in 2..(x - 1)
+   if (x % d) == 0
     return false
    end
   end
