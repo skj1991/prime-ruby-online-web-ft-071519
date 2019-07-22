@@ -1,9 +1,9 @@
-def prime? (x)
-  for d in 2..(x - 1)
-   if (x % d) == 0
-    return false
-   end
+def prime?(x)
+  count = 0
+
+  for each in (2..x)
+    x % each == 0 ? count += 1 : nil
   end
 
-  true
- end
+  return count == 1 ? true : false
+end
