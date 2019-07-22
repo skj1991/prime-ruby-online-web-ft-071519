@@ -2,8 +2,8 @@ def prime?(x)
   count = 0
 
   for each in (2..x)
-    x % each == 0 ? count += 1 : nil
+    x % each == 0 ? 
   end
 
-  return count == 1 ? true : false
+  return count == 1 ?
 end
